@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%; overflow-x: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=425, initial-scale=1.0">
+    <title>Icon Ai</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/_navbar.scss">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type>
+        function dataURLtoBlob(dataurl) { var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1], bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n); while (n--) { u8arr[n] = bstr.charCodeAt(n); } return new Blob([u8arr], { type: mime });
+        } function downloadImg(imgSrc) { var image = new Image(); image.crossOrigin = "anonymous"; image.src = imgSrc; var fileName = image.src.split("/").pop(); image.onload = function() { var canvas = document.createElement('canvas'); canvas.width =
+        this.width; canvas.height = this.height; canvas.getContext('2d').drawImage(this, 0, 0); if (typeof window.navigator.msSaveBlob !== 'undefined') { window.navigator.msSaveBlob(dataURLtoBlob(canvas.toDataURL()), fileName); } else { var link = document.createElement('a');
+        link.href = canvas.toDataURL(); link.download = fileName; link.click(); } }; }
+    </script>
+    <style type="text/css">
+    </style>
+</head>
+<header>
+    <div class="inner">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="./images/gnb-logo@2x.png" alt="logo">
+                        
+                    </div>
+                </a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" onclick="dim()">
+                    <span class="navbar-toggler-icon">
+                        <i></i>
+                    </span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="#">About SHREK</a> -->
+                            <a class="nav-link" href="#intro">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" href="#">Whitepaper</a> -->
+                            <a class="nav-link" href="#roadMap">Roadmap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://iconai.gitbook.io/iconai-erc/">Whitepaper</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a class="gnb-buyShroge" href="https://medium.com/@iconaierc">
+                      Read Medium
+                  </a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="visual">
+    <div class="inner">
+        <div class="conWrap">
+            <h1 data-aos="fade-left" data-aos-easing="ease" data-aos-delay="100">
+                Welcome to <span>IconAi</span>
+            </h1>
+            <h6 data-aos="fade-left" data-aos-easing="ease" data-aos-delay="200">
+                Revolutionizing Logo Design on the Ethereum Blockchain! 
+
+            </h6>
+            <div class="btnWrap" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="300">
+                <div><a class="btn btn-primary" href="uniswap.org">Buy</a></div>
+                <div><a class="btn btn-primary" href="dextools.io">Live Chart</a></div>
+            </div>
+            <div class="snsWrap" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="400">
+                <a href="https://twitter.com/iconaierc" class="sns-w" target="_blank"></a>
+                <a href="https://t.me/iconaierc" class="sns-t" target="_blank"></a>
+            </div>
+            
+    </div>
+</section>
+
+<section class="intro" id="intro">
+    <div class="inner">
+        <div class="conWrap clear-fix">
+            <div class="conR float-left">
+                <h1>
+                    About <span class="colorGreen">Icon Ai</span>
+                </h1>
+                <!-- <h5 class="colorPurple">please only invest money you can afford to lose (no life savings)</h5> -->
+                <h5 class="colorWhite">
+                    Wanna Know?<br>
+                    <span class="answer">ICON AI is not your ordinary cryptocurrency project. We're here to shake up the world of logo design and bring it into the future with the power of blockchain technology. Say goodbye to traditional logo designers and hello to a new era of creativity and innovation! <br>
+                        With ICON AI, we're leveraging the Ethereum blockchain to create a decentralized marketplace for logo design. This means that anyone, anywhere in the world, can participate in the logo design process and contribute their unique artistic talents. No more geographical limitations or exclusivity - logo design is now accessible to all!</span><br> But what sets us apart? <br>
+                    <span class="answer">Well, our platform utilizes artificial intelligence and machine learning algorithms to analyze design preferences, trends, and user feedback. This cutting-edge technology ensures that every logo created on ICON AI is not only visually stunning but also tailored to meet the specific needs and preferences of our users. <br> contract will be uploaded soon. </span><br>
+                    <!-- <span class="info">*please be aware of the risks of investing in cryptocurrencies and meme coins. Only invest what you can afford to lose*</span> -->
+                </h5> 
+
+                    <!-- <div class="image col-visual float-right">
+                        <img src="favicon.png" alt="Image Description">
+                    </div>
+                </div> -->
+               
+            <!-- </div>
+            <div class="col-visual float-right">
+                <div class="section2-symbol">
+                    <img src="images/music.png" alt="shgoge_symbol">
+                    <div class="int-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                        <div class="int-ic"></div>
+                        <p>
+                            Low Tax<br>
+                        </p>
+                    </div>
+                    <div class="int-item" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                        <div class="int-ic"></div>
+                        <p>
+                            Launched on<br> Ethereum
+                            <br> Mainnet
+                            <br>
+                        </p>
+                    </div> -->
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tokenomics" id="tokenomics">
+    <div class="inner2" style="margin: 0 auto; justify-content: center;">
+        <div class="conL float-right" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" data-aos-delay="600">
+            <h2 class="d-pc">
+                <span class="colorGreen">Icon Ai</span> Tokenomics
+            </h2>
+            <p class style="word-break: keep-all;">
+                Invest in Icon Ai, and you're not just buying crypto; you're acquiring a piece of work. Our tokens are Fueling Creativity and Empowering Designers.
+            </p>
+            <hr>
+            <h5><span class="colorPurple">Total Supply</span>100.000.000</h5>
+            <h5><span class="colorPurple">Taxes</span>Total Tax = 1% (buy and sell)</h5>
+            <div class="conWrap">
+                <dl>
+                    <dd>
+                        <span>innovative logo generation algorithm</span>
+                        <div class="footnote">
+                            This algorithm uses advanced machine learning techniques to analyze a brand's characteristics, industry, and target audience, and then generates unique and creative logo designs tailored to those specific requirements.
+                        </div>
+                    </dd>
+
+                    <dd>
+                        <span></span>
+                        <div class="footnote" style>
+                            <br><br> 
+                            <br> 
+                            
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+
+<section class="phase" id="roadMap">
+    <h1>
+        Road Map
+    </h1>
+
+    <div class="conWrapBody">
+        <ul>
+            <li>
+                <div class="textWrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" data-aos-delay="300" data-aos-duration="500">
+                    <h2>Phase 1</h2>
+                    <h3> Prelude </h3>
+                    <p>
+                        • Market Research and Analysis <br> • Project Inception<br> • Token Launch<br> • Influencer marketing<br> 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="textWrap leftCon" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" data-aos-delay="300" data-aos-duration="500">
+                    <h2>Phase 2</h2>
+                    <h3>Platform Development</h3>
+                    <p>
+                        • Strategic Partnerships<br> • Generate multiple logo design ideas.<br>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="textWrap" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="ease" data-aos-delay="300" data-aos-duration="500">
+                    <h2>Phase 3</h2>
+                    <h3> Feedback and Refinement</h3>
+                    <p>
+                        • Fine-tune the chosen design and prepare it for various formats and applications.<br> • Community Expansion <br> • Continuous Innovation
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+
+<section class="howBuy" id="howToBuy">
+    <div class="inner">
+        <h1>
+            <span class="colorGreen"></span> Official Contract
+        </h1>
+        <h5>
+            will be uploaded soon
+        </h5>
+    </div>
+</section>
+
+
+
+<footer>
+    Copyright © 2023 Icon Ai. All rights reserved.
+</footer>
+<!-- <script src="./js/viewFixed.js"></script> -->
+
+<!-- animation -->
+<script src="js/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'ease',
+        duration: 1000,
+    });
+</script>
+
+
+</body>
+
+</html>
