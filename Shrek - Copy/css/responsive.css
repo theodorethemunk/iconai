@@ -1,0 +1,450 @@
+@media screen and (max-width:1023px) {
+    header .navbar-toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width:960px) {
+    .d-pc {
+        display: none;
+    }
+    .d-mobile {
+        display: block;
+    }
+    .inner {
+        max-width: 560px !important;
+        padding: 0 20px !important;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        padding-bottom: 26px;
+        background: rgba(0, 0, 0, 0.3);
+        height: auto;
+        backdrop-filter: blur(10px);
+    }
+    header .inner {
+        padding: 0 !important;
+    }
+    header .navbar {
+        padding-top: 37px;
+    }
+    header .navbar-nav {
+        padding: 10px;
+    }
+    header .nav-link {
+        padding: 20px;
+    }
+    section.visual {
+        align-items: flex-start;
+        height: auto;
+        position: relative;
+    }
+    section.visual .mobile-bg {
+        background: #0e112d;
+        margin-bottom: -104px;
+        /* margin-left: -20px; */
+        width: 100%;
+        padding: 16px 0;
+        transform: translateX(0) !important;
+    }
+    section.visual .numDataWrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 560px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    section.visual .numDataWrap .numData+.numData {
+        margin-top: 14px;
+    }
+    section.visual [data-aos="fade-left"] {
+        transform: translateX(0) !important;
+    }
+    section.visual .btnWrap {
+        order: 0;
+        margin-top: 19px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    section.visual .btn.btn-primary {
+        margin: 0 5px !important;
+    }
+    section.visual .snsWrap {
+        margin-top: 23px;
+        justify-content: center;
+        margin-bottom: 366px;
+    }
+    section.visual .snsWrap a {
+        width: 36px;
+        height: 36px;
+    }
+    section.visual .inner::before {
+        content: '';
+        position: absolute;
+        top: initial;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-width: 476px;
+        margin: 0 auto;
+        height: 57%;
+        background: url(../images/top-visual.png) center/contain no-repeat;
+        z-index: -1;
+    }
+    section.intro .conWrap,
+    section.tokenomics .inner2,
+    section.phase ul {
+        flex-direction: column;
+    }
+    section.phase {
+        height: auto;
+        padding-bottom: 42px;
+        /* background-attachment: fixed;
+        background-size: cover; */
+        /* background-image: linear-gradient(90deg, #000 3%, #00053a 97%); */
+    }
+    section.phase ul {
+        align-items: center;
+    }
+    section.phase .conWrap+.conWrap {
+        margin-top: 108px;
+    }
+    section.intro .conWrap img {
+        max-width: 250px;
+        margin-top: 20px;
+        margin-bottom: 260px;
+    }
+    section.intro .conWrap .conR {
+        padding: 0;
+        width: 100%;
+    }
+    section.intro {
+        height: auto;
+        padding-bottom: 67px;
+        /* background: #2f0f50; */
+        padding-top: 125px;
+        margin-top: -1px;
+    }
+    section.visual .conWrap {
+        /* max-width: 390px; */
+        margin: 0 auto;
+        margin-top: 140px;
+    }
+    section.tokenomics {
+        /* background-image: linear-gradient(to bottom, #000 1%, #00053a 100%); */
+    }
+    section.tokenomics .conL h2 {}
+    section.tokenomics .conL {
+        margin: 72px 0 0;
+        padding-left: 0;
+    }
+    section.tokenomics .conL p {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        opacity: 1;
+    }
+    section.tokenomics .conL h5 {
+        font-size: 24px;
+    }
+    section.tokenomics .conL dl {
+        flex-direction: column;
+    }
+    section.tokenomics .conL dd+dd {
+        margin-left: 0;
+    }
+    section.tokenomics .conL .footnote {
+        top: 150px;
+    }
+    section.tokenomics .conR .titBadge {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        display: block;
+        width: 200px;
+    }
+    section.tokenomics .conR>div {
+        display: flex;
+        flex-direction: column;
+    }
+    section.tokenomics {
+        height: auto;
+        padding-bottom: 100px;
+    }
+    section.tokenomics .conR em {
+        text-align: center;
+    }
+    section.whitepaper {
+        height: auto;
+        padding: 92px 0 100px;
+        /* background-image: linear-gradient(to top, #2f0f50 1%, #00053a 100%); */
+        /* background-image: linear-gradient(90deg, #000 3%, #00053a 97%) */
+    }
+    section.whitepaper .inner {
+        padding: 0 !important;
+    }
+    section.tokenomics .conR {
+        width: 100%;
+        max-width: 370px;
+    }
+    section.tokenomics .conR img.toke-img01 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section.tokenomics .conR img.toke-img02 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header .logo img {
+        height: 41px;
+    }
+    header .gnb-buyShroge {
+        font-size: 16px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.75;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000;
+    }
+    section.visual h1 {
+        text-align: center;
+        font-size: 48px;
+        line-height: 58px;
+        max-width: 310px;
+        display: block;
+        margin: 0 auto;
+    }
+    section.visual h5 {
+        display: none;
+    }
+    section.visual .numData {
+        /* width: auto;*/
+        min-width: calc(50% - 1px);
+        flex: 1 0 auto;
+        padding-left: 5%;
+        box-sizing: border-box;
+    }
+    section.visual .numDataWrap .hr-h {
+        margin: 0;
+    }
+    section.visual .numData span.value {
+        font-size: 24px;
+    }
+    section.intro h1 {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.78;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+    section.intro h5 {
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: center;
+        color: #a967ff;
+    }
+    section.intro .conR p {
+        display: none;
+    }
+    section.intro .conWrap .col-visual {
+        height: auto;
+    }
+    section.intro .conWrap .col-visual,
+    section.intro .section2-symbol {
+        width: 100%;
+    }
+    section.intro .section2-symbol .int-item {
+        width: calc(50% - 8px);
+        padding-top: 29px;
+        padding-bottom: 30px;
+    }
+    section.intro .section2-symbol .int-item p {
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+    }
+    section.intro .section2-symbol .int-item .int-ic {
+        width: 105px;
+        height: 74px;
+        margin-bottom: 15px;
+    }
+    section.intro .section2-symbol .int-item:nth-of-type(1) {
+        top: 50px;
+    }
+    section.intro .section2-symbol .int-item:nth-of-type(2) {
+        top: 178px;
+    }
+    section.intro .section2-symbol .int-item:nth-of-type(3) {
+        top: 315px;
+    }
+    section.intro .col-visual p.d-mobile {
+        font-size: 18px;
+        color: #fff;
+    }
+    section.tokenomics h2.d-mobile {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 38px;
+    }
+    section.tokenomics .conR {
+        max-width: 100%;
+    }
+    section.tokenomics .conL {
+        width: 100%;
+        float: left;
+    }
+    section.tokenomics .conR .visualBx {
+        display: block;
+    }
+    section.tokenomics .conR .visualBx .textBx {
+        display: block;
+    }
+    section.tokenomics .conR .visualBx .textBx::before {
+        display: none;
+    }
+    section.tokenomics .conR .visualBx .textBx {
+        position: static;
+        padding: 0 !important;
+    }
+    section.tokenomics .conR .visualBx .textBx p,
+    section.tokenomics .conR .visualBx .textBx h3 {
+        text-align: center;
+        white-space: normal;
+    }
+    section.tokenomics .conR .visualBx .textBx h3 {
+        font-size: 24px;
+    }
+    section.tokenomics .conR .visualBx .textBx p {
+        font-size: 18px;
+        word-break: break-all;
+    }
+    section.tokenomics .conR .visualBx img.mobile-only {
+        display: block;
+        width: 50%;
+        margin-top: 20px;
+    }
+    section.tokenomics .conR .visualBx img.pc-only {
+        display: none;
+    }
+    section.tokenomics .conR .visualBx .textBx:nth-of-type(2),
+    section.tokenomics .conR .visualBx .textBx:nth-of-type(3),
+    section.tokenomics .conR .visualBx .textBx:nth-of-type(4),
+    section.tokenomics .conR .visualBx .textBx:nth-of-type(5) {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        margin-top: 20px;
+    }
+    section.holding .inner {
+        background-image: none;
+    }
+    section.holding h1 {
+        font-size: 36px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.28;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+    }
+    section.holding .holdingItem {
+        width: calc((100% - 20px)/2);
+        margin-right: 20px;
+        padding-top: 155px;
+        margin-bottom: 20px;
+    }
+    section.holding .holdingItem:nth-child(2n) {
+        margin-right: 0;
+    }
+    section.phase h1 {
+        font-size: 36px;
+    }
+    section.numberHolders h2 {
+        font-size: 60px;
+    }
+    section.phase .conWrapBody {
+        padding: 0 20px;
+    }
+    section.phase .textWrap {
+        width: 100%;
+        margin-top: -3px;
+    }
+    section.phase .textWrap p {
+        margin-bottom: 58px;
+    }
+    section.phase ul {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+    section.phase .textWrap.leftCon {
+        margin-left: 0;
+    }
+    section.phase li {
+        padding-left: 28px;
+        margin-left: 13px;
+    }
+    section.phase li::before {
+        height: 26px;
+        width: 26px;
+        left: -15px;
+    }
+    section.phase .textWrap h2 {
+        font-size: 24px;
+    }
+    section.phase .textWrap h3 {
+        font-size: 30px;
+        margin-bottom: 13px;
+    }
+    section.howBuy {
+        padding: 90px 0 100px;
+    }
+    section.howBuy li {
+        width: 100%;
+    }
+    section.howBuy li+li {
+        margin-left: 0;
+        margin-top: 52px;
+    }
+    section.howBuy p {
+        font-size: 18px;
+    }
+    section.howBuy .btnWrap {
+        flex-direction: column;
+    }
+}
